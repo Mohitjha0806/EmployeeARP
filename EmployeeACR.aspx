@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EmployeeACR.aspx.cs" Inherits="Employee_ACR.EmployeeACR" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EmployeeACR.aspx.cs" Inherits="Employee_ACR.EmployeeACR" %>
 
 <!DOCTYPE html>
 
@@ -198,7 +198,7 @@
 
         <div class="container-fluid " style="background-color: #F5F6F9;">
             <div class="container-fluid" style="background-color: #F1F4F7;">
-                <div class="container ">
+                <div class="container">
                     <div class="row mt-2">
                         <div class="col d-flex justify-content-end mt-2">
                             <p style="font-size: 0.9rem;" class=" fw-bold">Home >  HRMS > ACR > Emplyee ACR Apply</p>
@@ -207,7 +207,7 @@
 
                 </div>
                 <%--container 1--%>
-                <div runat="server" id="container1" class="container">
+                <div runat="server" id="container1" class="container" visible="true">
                     <div class="row mt-2 py-2">
                         <div class="col-md-1">
                             <img class="justify-content-start" style="width: 4vw; height: auto;" src="Asseds/image%20%20head.png" />
@@ -236,25 +236,25 @@
                                         <asp:Label Style="font-size: 0.9rem;" Text="Select Academic Year" CssClass="form-label" runat="server" />
                                         <br />
                                         <asp:Label runat="server" Style="font-size: 0.9rem" CssClass="form-label">शैक्षणिक वर्ष चुनें <span style="color:red; font-weight:600;">*</span></asp:Label>
-                                        <asp:TextBox Style="font-size: 0.9rem" Text="2020-2021" runat="server" CssClass="form-control" disabled="True" />
+                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" Text="2020-2021" runat="server" CssClass="form-control" disabled="True" />
                                     </div>
                                     <div class="col-md-3">
                                         <asp:Label Text="Employee Name" CssClass="form-label" runat="server" />
                                         <br />
                                         <asp:Label Style="font-size: 0.9rem" runat="server" CssClass="form-label">कर्मचारी का नाम<span style="color:red; font-weight:600;">*</span></asp:Label>
-                                        <asp:TextBox Style="font-size: 0.9rem" Text="गोपाल शर्मा" runat="server" CssClass="form-control" disabled="True" />
+                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" Text="गोपाल शर्मा" runat="server" CssClass="form-control" disabled="True" />
                                     </div>
                                     <div class="col-md-3">
                                         <asp:Label Style="font-size: 0.9rem" Text="Employee Unique ID" CssClass="form-label" runat="server" />
                                         <br />
                                         <asp:Label Style="font-size: 0.9rem" runat="server" CssClass="form-label">कर्मचारी यूनिक आईडी <span style="color:red; font-weight:600;">*</span></asp:Label>
-                                        <asp:TextBox Style="font-size: 0.9rem" Text="EDP4561231556" runat="server" CssClass="form-control" disabled="True" />
+                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" Text="EDP4561231556" runat="server" CssClass="form-control" disabled="True" />
                                     </div>
                                     <div class="col-md-3">
                                         <asp:Label Style="font-size: 0.9rem" Text="Select Academic Year" CssClass="form-label" runat="server" />
                                         <br />
                                         <asp:Label Style="font-size: 0.9rem" Text="Designation Name" runat="server" CssClass="form-label">पद का नाम <span style="color:red; font-weight:600;">*</span></asp:Label>
-                                        <asp:TextBox Style="font-size: 0.9rem" Text="सहायक शिक्षक" runat="server" CssClass="form-control" disabled="True" />
+                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" Text="सहायक शिक्षक" runat="server" CssClass="form-control" disabled="True" />
                                     </div>
                                 </div>
                                 <div class="row mt-3">
@@ -262,25 +262,25 @@
                                         <asp:Label Style="font-size: 0.9rem" Text="Date of Birth" CssClass="form-label" runat="server" />
                                         <br />
                                         <asp:Label Style="font-size: 0.9rem" runat="server" CssClass="form-label">जन्म तिथि <span style="color:red; font-weight:600;">*</span></asp:Label>
-                                        <asp:TextBox Style="font-size: 0.9rem" Text="03-12-1999" runat="server" CssClass="form-control" disabled="True" />
+                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" Text="03-12-1999" runat="server" CssClass="form-control" disabled="True" />
                                     </div>
                                     <div class="col-md-3">
                                         <asp:Label Style="font-size: 0.9rem" Text="Institution of Posting" CssClass="form-label" runat="server" />
                                         <br />
                                         <asp:Label runat="server" CssClass="form-label">पदस्थली शाला/स्थान<span style="color:red; font-weight:600;">*</span></asp:Label>
-                                        <asp:TextBox Style="font-size: 0.9rem" Text="भोपाल" runat="server" CssClass="form-control" disabled="True" />
+                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" Text="भोपाल" runat="server" CssClass="form-control" disabled="True" />
                                     </div>
                                     <div class="col-md-3">
                                         <asp:Label Style="font-size: 0.9rem" Text="Dise code of Institution" CssClass="form-label" runat="server" />
                                         <br />
                                         <asp:Label Style="font-size: 0.9rem" runat="server" CssClass="form-label">संस्था का डीआईएसई कोड <span style="color:red; font-weight:600;">*</span></asp:Label>
-                                        <asp:TextBox Style="font-size: 0.9rem" Text="St Theresa Girls School/489754554" runat="server" CssClass="form-control" disabled="True" />
+                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" Text="St Theresa Girls School/489754554" runat="server" CssClass="form-control" disabled="True" />
                                     </div>
                                     <div class="col-md-3">
                                         <asp:Label Style="font-size: 0.9rem" Text="Date of First Posting" CssClass="form-label" runat="server" />
                                         <br />
                                         <asp:Label Style="font-size: 0.9rem" Text="" runat="server" CssClass="form-label">प्रथम नियुक्ति की तिथि <span style="color:red; font-weight:600;">*</span></asp:Label>
-                                        <asp:TextBox Style="font-size: 0.9rem" Text="सहायक शिक्षक" runat="server" CssClass="form-control" disabled="True" />
+                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" Text="सहायक शिक्षक" runat="server" CssClass="form-control" disabled="True" />
                                     </div>
                                 </div>
                                 <div class="row mt-3">
@@ -288,25 +288,25 @@
                                         <asp:Label Style="font-size: 0.9rem" Text="First Posting Designation" CssClass="form-label" runat="server" />
                                         <br />
                                         <asp:Label Style="font-size: 0.9rem" runat="server" CssClass="form-label">प्रथम पोस्टिंग पदनाम <span style="color:red; font-weight:600;">*</span></asp:Label>
-                                        <asp:TextBox Style="font-size: 0.9rem" Text="प्राथमिक अध्यापक" runat="server" CssClass="form-control mt-5" disabled="True" />
+                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" Text="प्राथमिक अध्यापक" runat="server" CssClass="form-control mt-5" disabled="True" />
                                     </div>
                                     <div class="col-md-3  ">
                                         <asp:Label Style="font-size: 0.9rem" Text="Date of Appointment to Present Post" CssClass="form-label" runat="server" />
                                         <br />
                                         <asp:Label Style="font-size: 0.9rem" runat="server" CssClass="form-label">वर्तमान पद पर नियुक्ति की तिथि<span style="color:red; font-weight:600;">*</span></asp:Label>
-                                        <asp:TextBox Style="font-size: 0.9rem" Text="23-01-2024" runat="server" CssClass="form-control mt-5" disabled="True" />
+                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" Text="23-01-2024" runat="server" CssClass="form-control mt-5" disabled="True" />
                                     </div>
                                     <div class="col-md-3 ">
                                         <asp:Label Style="font-size: 0.9rem" Text="Select Date of Promotion" CssClass="form-label" runat="server" />
                                         <br />
                                         <asp:Label Style="font-size: 0.9rem" runat="server" CssClass="form-label">प्रमोशन की तारीख चुनें <span style="color:red; font-weight:600;">*</span></asp:Label>
-                                        <asp:TextBox Style="font-size: 0.9rem" TextMode="Date" runat="server" CssClass="form-control mt-5" />
+                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" ID="txtPromotion" TextMode="Date" runat="server" CssClass="form-control mt-5" />
                                     </div>
                                     <div class="col-md-3 ">
                                         <asp:Label Style="font-size: 0.9rem" Text="Select Date of Filling of Annual Immovale Property Return" CssClass="form-label" runat="server" />
                                         <br />
                                         <asp:Label Style="font-size: 0.9rem" runat="server" CssClass="form-label">वार्षिक अचल संपत्ति रिटर्न भरने की तारीख चुनें <span style="color:red; font-weight:600;">*</span></asp:Label>
-                                        <asp:TextBox Style="font-size: 0.9rem" TextMode="Date" runat="server" CssClass="form-control" />
+                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" ID="txtProperty" TextMode="Date" runat="server" CssClass="form-control" />
                                     </div>
                                 </div>
                             </fieldset>
@@ -316,7 +316,7 @@
                             <div class="row mt-4 pb-5">
                                 <div class="col">
                                     <asp:Button Text="Save/Next" Style="font-size: 0.9rem" CssClass="btn btn-outline-success fw-bold" ID="BtnSaveOne" runat="server" OnClick="BtnSaveOne_Click" AutoPostBack="True" />
-                                    <asp:Button Text="Clear" Style="font-size: 0.9rem" CssClass="btn btn-outline-danger fw-bold" runat="server" />
+                                    <asp:Button Text="Clear" Style="font-size: 0.9rem" ID="btnClaerOne" CssClass="btn btn-outline-danger fw-bold" runat="server" OnClick="btnClaerOne_Click" AutoPostBack="True" />
                                 </div>
                             </div>
                         </div>
@@ -346,7 +346,10 @@
 
                                     </div>
                                     <div class="col-1">
-                                        <asp:Button Style="background-color: hotpink" Text="Back" CssClass="btn justify-content-between text-light" runat="server" />
+
+                                        <a href="#container1">
+                                            <asp:Button runat="server" Style="padding: 0.3rem 1.4rem; background-color: #7C4BAF;" ID="btnBackOne" OnClick="btnBackOne_Click" Text="BACK" CssClass="btn text-light rounded-5" AutoPostBack="true" />
+                                        </a>
                                     </div>
                                     <fieldset class="scheduler-border form-control">
                                         <legend style="font-size: 0.8rem" class="scheduler-border form-check-control justify-content-between fw-semibold">Inprovining Attendance of Childdren / बच्चों की उपस्थिति सुनिश्चित करना
@@ -394,46 +397,46 @@
                                             <h1 class="text-dark fs-6  border-2 border-dark-subtle" >1.</h1>
                                                     </asp:TableCell>
                                                     <asp:TableCell CssClass="text-center" VerticalAlign="Middle">
-                                                        <asp:dropdownlist style="font-size:0.9rem" class="border-2 border-dark-subtle form-control" runat="server">
-                                                            <asp:listitem text="--Select Class--" />
-                                                                        <asp:listitem text="6th Class" />
-                                                                        <asp:listitem text="7th Class" />
-                                                                        <asp:listitem text="8th Class" />
-                                                                        <asp:listitem text="9th Class" />
-                                                                        <asp:listitem text="10th Class" />
-                                                                        <asp:listitem text="11th Class" />
-                                                                        <asp:listitem text="12th Class" />
-                                                            </asp:dropdownlist>
+                                                        <asp:DropDownList Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" ID="ddlClass" class="form-control" runat="server">
+                                                            <asp:ListItem Text="--Select Class--" Value="" />
+                                                            <asp:ListItem Text="6th Class" />
+                                                            <asp:ListItem Text="7th Class" Value="1" />
+                                                            <asp:ListItem Text="8th Class" Value="2" />
+                                                            <asp:ListItem Text="9th Class" Value="3" />
+                                                            <asp:ListItem Text="10th Class" Value="4" />
+                                                            <asp:ListItem Text="11th Class" Value="5" />
+                                                            <asp:ListItem Text="12th Class" Value="6" />
+                                                        </asp:DropDownList>
 
-                                               
+
                                                     </asp:TableCell>
 
                                                     <asp:TableCell CssClass="text-center" VerticalAlign="Middle">
-                                                 <asp:dropdownlist style="font-size:0.9rem" class=" text-dark  border-2 border-dark-subtle form-control" runat="server">
-                                                          <asp:listitem text="--Select Year--" />
-                                                         <asp:listitem text="2021" />
-                                                         <asp:listitem text="2022" />
-                                                         <asp:listitem text="2023" />
-                                                         <asp:listitem text="2024" />
-                                                </asp:dropdownlist >
+                                                        <asp:DropDownList Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" ID="ddlYears" class=" text-dark form-control" runat="server">
+                                                            <asp:ListItem Text="--Select Year--" Value="" />
+                                                            <asp:ListItem Text="2021" />
+                                                            <asp:ListItem Text="2022" />
+                                                            <asp:ListItem Text="2023" />
+                                                            <asp:ListItem Text="2024" />
+                                                        </asp:DropDownList>
                                                     </asp:TableCell>
 
                                                     <asp:TableCell Style="font-size: 0.9rem" CssClass="text-center" VerticalAlign="Middle">
-                                                         <asp:dropdownlist style="font-size:0.9rem" class="border-2 border-dark-subtle form-control" runat="server">
-                                                                     <asp:listitem text="--Select Year--" />
-                                                                     <asp:listitem text="2021" />
-                                                                     <asp:listitem text="2022" />
-                                                                     <asp:listitem text="2023" />
-                                                                     <asp:listitem text="2024" />
-                                                            </asp:dropdownlist>
+                                                        <asp:DropDownList Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" ID="ddlYears2" class="form-control" runat="server">
+                                                            <asp:ListItem Text="--Select Year--" Value="" />
+                                                            <asp:ListItem Text="2021" />
+                                                            <asp:ListItem Text="2022" />
+                                                            <asp:ListItem Text="2023" />
+                                                            <asp:ListItem Text="2024" />
+                                                        </asp:DropDownList>
                                                     </asp:TableCell>
 
                                                     <asp:TableCell Style="font-size: 0.9rem" CssClass="text-center" VerticalAlign="Middle">
-                                                <asp:textbox style="font-size:0.9rem" CssClass="border-2 border-dark-subtle form-control" runat="server" />
+                                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" ID="txtTwoOne" CssClass="form-control" runat="server" />
                                                     </asp:TableCell>
 
                                                     <asp:TableCell Style="font-size: 0.9rem" CssClass="text-center" VerticalAlign="Middle">
-                                                            <asp:textbox style="font-size:0.9rem" CssClass="border-2 border-dark-subtle form-control" runat="server"/>
+                                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" ID="txtTwoTwo" CssClass="form-control" runat="server" />
                                                     </asp:TableCell>
 
                                                 </asp:TableRow>
@@ -447,8 +450,8 @@
 
                                     <div class="row mt-4 ">
                                         <div class="col">
-                                            <asp:Button Style="font-size: 0.9rem;" Text="Save/Next" CssClass="btn btn-outline-success fw-bold" runat="server" ID="btnSaveTwo" OnClick="btnSaveTwo_Click" />
-                                            <asp:Button Style="font-size: 0.9rem;" Text="Clear" CssClass="btn btn-outline-danger fw-bold" runat="server" />
+                                            <asp:Button Style="font-size: 0.9rem;" Text="Save/Next" CssClass="btn btn-outline-success fw-bold" runat="server" ID="btnSaveTwo" OnClick="btnSaveTwo_Click" AutoPostBack="true" />
+                                            <asp:Button Style="font-size: 0.9rem;" Text="Clear" CssClass="btn btn-outline-danger fw-bold" runat="server" ID="btnClearTwoClick" OnClick="btnClearTwoClick_Click" AutoPostBack="true" />
                                         </div>
                                     </div>
                                 </div>
@@ -485,11 +488,13 @@
 
                         <div class="card" style="border-color: #7C4BAF;">
                             <div class="row">
-                                <div class="col-11 align-content-center">
+                                <div class="col-11 d-flex align-items-center justify-content-center">
                                     <h4 class="card-body scheduler-border mt-4 form-check-control justify-content-between text-dark-emphasis fw-semibold">PART-2 Self-Evaluation भाग-2 स्व-मूल्यांकन</h4>
                                 </div>
-                                <div class="col-1 align-content-center">
-                                    <asp:Button Style="background-color: hotpink" Text="Back" CssClass="btn justify-content-between text-light" runat="server" />
+                                <div class="col-1 d-flex align-items-center justify-content-end ">
+                                    <a href="#container2">
+                                        <asp:Button runat="server" Style="padding: 0.3rem 1.4rem; background-color: #7C4BAF;" ID="btnBackTwo" Text="BACK" CssClass="btn text-light  rounded-5" OnClick="btnBackTwo_Click" />
+                                    </a>
                                 </div>
                             </div>
                             <hr class="text-dark-emphasis fw-semibold mt-4 w-100" />
@@ -511,6 +516,9 @@
                                     <div class="px-2">
 
                                         <div class="row mt-5 ">
+
+
+
                                             <asp:Table Style="font-size: 0.9rem" CssClass="table table-bordered px-4" runat="server">
                                                 <asp:TableRow>
                                                     <asp:TableHeaderCell CssClass="text-center" VerticalAlign="Middle" Style="background-color: #F1F4F7;">
@@ -535,27 +543,30 @@
                                             <asp:label text="शिक्षण अधिगम सहायता का उपयोग" runat="server" />
                                                     </asp:TableCell>
                                                     <asp:TableCell>
-                                                 <asp:textbox class=" border-2 border-dark-subtle form-control"  runat="server"  />
+                                                        <asp:TextBox Style="border: 1px solid #7C4BAF;" class=" form-control" ID="txt9" runat="server" />
                                                     </asp:TableCell>
                                                 </asp:TableRow>
+
+
+
                                                 <asp:TableRow>
                                                     <asp:TableCell CssClass="text-center" VerticalAlign="Middle" Style="background-color: #F1F4F7;">2</asp:TableCell>
                                                     <asp:TableCell Style="background-color: #F1F4F7;">
-        <asp:label text="Use of lesson plan" runat="server" /> <br />
-        <asp:label text="पाठ योजना का उपयोग" runat="server" />
+                                                            <asp:label text="Use of lesson plan" runat="server" /> <br />
+                                                            <asp:label text="पाठ योजना का उपयोग" runat="server" />
                                                     </asp:TableCell>
                                                     <asp:TableCell Style="background-color: #F1F4F7;">
-             <asp:Textbox style="font-size:0.9rem;" class="border-2 border-dark-subtle form-control"  runat="server"  />
+                                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" ID="txt10" class="form-control" runat="server" />
                                                     </asp:TableCell>
                                                 </asp:TableRow>
                                                 <asp:TableRow>
                                                     <asp:TableCell CssClass="text-center" VerticalAlign="Middle">3</asp:TableCell>
                                                     <asp:TableCell>
-        <asp:label text="Innovation or Inpect" runat="server" /> <br />
-        <asp:label text="नवप्रवर्तन या निरीक्षण" runat="server" />
+                                                             <asp:label text="Innovation or Inpect" runat="server" /> <br />
+                                                             <asp:label text="नवप्रवर्तन या निरीक्षण" runat="server" />
                                                     </asp:TableCell>
                                                     <asp:TableCell>
-             <asp:Textbox style="font-size:0.9rem;" class="border-2 border-dark-subtle form-control"  runat="server"  />
+                                                             <asp:Textbox style="font-size:0.9rem; border:1px solid #7C4BAF;" ID="txt11" class="form-control"  runat="server"  />
                                                     </asp:TableCell>
                                                 </asp:TableRow>
                                                 <asp:TableRow>
@@ -565,7 +576,7 @@
 <asp:label text="विद्यार्थियों की नोटबुक की जाँच" runat="server" />
                                                     </asp:TableCell>
                                                     <asp:TableCell Style="background-color: #F1F4F7;">
-     <asp:Textbox style="font-size:0.9rem;" class="border-2 border-dark-subtle form-control"  runat="server"  />
+                                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" ID="txt1" class=" form-control" runat="server" />
                                                     </asp:TableCell>
                                                 </asp:TableRow>
                                                 <asp:TableRow>
@@ -575,7 +586,7 @@
 <asp:label text="सुधारात्मक शिक्षण" runat="server" />
                                                     </asp:TableCell>
                                                     <asp:TableCell>
-     <asp:Textbox style="font-size:0.9rem;" class="border-2 border-dark-subtle form-control"  runat="server"  />
+                                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" ID="txt2" class="form-control" runat="server" />
                                                     </asp:TableCell>
                                                 </asp:TableRow>
                                                 <asp:TableRow>
@@ -585,7 +596,7 @@
 <asp:label text="अतिरिक्त कक्षाएँ" runat="server" />
                                                     </asp:TableCell>
                                                     <asp:TableCell Style="background-color: #F1F4F7;">
-     <asp:textbox class="border-2 border-dark-subtle form-control"  runat="server"  />
+                                                        <asp:TextBox Style="border: 1px solid #7C4BAF;" class="form-control" ID="txt3" runat="server" />
                                                     </asp:TableCell>
                                                 </asp:TableRow>
                                             </asp:Table>
@@ -621,7 +632,7 @@
                                             <asp:label text="खेल/साहित्यिक/सांस्कृतिक गतिविधियाँ" runat="server" />
                                                     </asp:TableCell>
                                                     <asp:TableCell>
-                                                 <asp:textbox class=" border-2 border-dark-subtle form-control"  runat="server"  />
+                                                        <asp:TextBox Style="border: 1px solid #7C4BAF;" ID="txt4" class="form-control" runat="server" />
                                                     </asp:TableCell>
                                                 </asp:TableRow>
                                                 <asp:TableRow>
@@ -631,7 +642,7 @@
                                                     <asp:label text="स्वच्छता/पर्यावरण के क्षेत्र में किया गया कार्य" runat="server" />
                                                     </asp:TableCell>
                                                     <asp:TableCell Style="background-color: #F1F4F7;">
-                                                     <asp:Textbox style="font-size:0.9rem;" class="border-2 border-dark-subtle form-control"  runat="server"  />
+                                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" ID="txt5" class="form-control" runat="server" />
                                                     </asp:TableCell>
                                                 </asp:TableRow>
                                                 <asp:TableRow>
@@ -641,7 +652,7 @@
                                                 <asp:label text="शिक्षण एवं सिखने में आई सी टी का उपयोग" runat="server" />
                                                     </asp:TableCell>
                                                     <asp:TableCell>
-                                                 <asp:textbox style="font-size:0.9rem;" class="border-2 border-dark-subtle form-control"  runat="server"  />
+                                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" ID="txt13" class="form-control" runat="server" />
                                                     </asp:TableCell>
                                                 </asp:TableRow>
 
@@ -688,19 +699,19 @@
                                                     </asp:TableCell>
 
                                                     <asp:TableCell Style="background-color: #F1F4F7;">
-                                                     <asp:textbox style="font-size: 0.9rem" class=" border-2 border-dark-subtle form-control" Placeholder="Enter Name of Traning" runat="server"  />
+                                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" ID="txt6" class="form-control" Placeholder="Enter Name of Traning" runat="server" />
                                                     </asp:TableCell>
 
                                                     <asp:TableCell Style="background-color: #F1F4F7;">
-                                                    <asp:textbox style="font-size: 0.9rem" class=" border-2 border-dark-subtle form-control" Placeholder="Enter Period of Traning(Days)"  runat="server"  />
+                                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" ID="txt7" class="form-control" Placeholder="Enter Period of Traning(Days)" runat="server" />
                                                     </asp:TableCell>
 
                                                     <asp:TableCell Style="background-color: #F1F4F7;">
-                                                        <asp:textbox style="font-size: 0.9rem" class=" border-2 border-dark-subtle form-control" Placeholder="Enter Result/Grade" runat="server"  />
+                                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" ID="txt8" class="form-control" Placeholder="Enter Result/Grade" runat="server" />
                                                     </asp:TableCell>
 
                                                     <asp:TableCell Style="background-color: #F1F4F7;" CssClass="text-center" VerticalAlign="Middle">
-                                                        <asp:Button Text="Add" style="font-size: 0.9rem" CssClass="btn btn-outline-success fw-bold py-2 px-5" runat="server" />
+                                                        <asp:Button Text="Add" style="font-size: 0.9rem" CssClass="btn btn-outline-success fw-bold py-1.5 px-5" runat="server" />
                                                     </asp:TableCell>
                                                 </asp:TableRow>
 
@@ -710,7 +721,6 @@
                                     </div>
 
                                 </fieldset>
-
                                 <fieldset class="scheduler-border form-control mt-3">
                                     <legend style="font-size: 0.8rem" class="scheduler-border form-check-control justify-content-betweenfw-semibold">Any Other Work Which You Want to Mention as an Outstanding Contribution / कोई अन्य कार्य जिसे आप एक उत्कृष्ट योगदान के रूप में उल्लेख करना चाहते है।</legend>
                                     <div class="px-2">
@@ -722,7 +732,7 @@
                                                 <asp:TableRow Style="font-size: 0.9rem">
 
                                                     <asp:TableCell>
-                                               <asp:textbox style="font-size: 0.9rem"  class=" border-2 border-dark-subtle form-control" Placeholder="Enter Other Work Outstanding Contribution in Maxmum 100 words" runat="server"  />
+                                                        <asp:TextBox Style="font-size: 0.9rem; border: 1px solid #7C4BAF;" ID="txt12" class="form-control" Placeholder="Enter Other Work Outstanding Contribution in Maxmum 100 words" runat="server" />
                                                     </asp:TableCell>
 
 
@@ -742,7 +752,7 @@
                                 <div class="row mt-4 pb-5">
                                     <div class="col">
                                         <asp:Button Text="Save/Next" Style="font-size: 0.9rem" CssClass="btn btn-outline-success fw-bold" runat="server" />
-                                        <asp:Button Text="Clear" Style="font-size: 0.9rem" CssClass="btn btn-outline-danger fw-bold" runat="server" />
+                                        <asp:Button Text="Clear" Style="font-size: 0.9rem" ID="btnClearThree" CssClass="btn btn-outline-danger fw-bold" OnClick="btnClearThree_Click" runat="server" AutoPostBack="true" />
                                     </div>
                                 </div>
 
