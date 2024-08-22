@@ -354,7 +354,7 @@
                                     <fieldset class="scheduler-border form-control">
                                         <legend style="font-size: 0.8rem" class="scheduler-border form-check-control justify-content-between fw-semibold">Inprovining Attendance of Childdren / बच्चों की उपस्थिति सुनिश्चित करना
                                         </legend>
-                                        <div class="row">
+                                        <div class="row table-responsive-md">
                                             <asp:Table Style="font-size: 0.9rem" CssClass="table table-bordered" runat="server">
                                                 <asp:TableRow>
                                                     <asp:TableCell CssClass="text-center" VerticalAlign="Top" RowSpan="2" Style="background-color: #F1F4F7;">
@@ -515,7 +515,7 @@
 
                                     <div class="px-2">
 
-                                        <div class="row mt-5 ">
+                                        <div class="row mt-5 table-responsive-md">
 
 
 
